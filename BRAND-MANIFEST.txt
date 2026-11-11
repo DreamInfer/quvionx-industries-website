@@ -1,0 +1,7 @@
+QUVIONX INDUSTRIES — BRAND SOURCE MANIFEST
+Site asset: assets/quvionx-official-logo.png
+Origin: original QuvionX logo asset supplied in prior project conversations, file titled "Luxury Gold QuvionX Industries Seal.png" (2026-11-08)
+Dimensions: 1254 x 1254 pixels
+SHA-256: 51d70c761b98a7a4419b425032f5559e09ecb3a199279e65eaa73a54c61f656d
+Policy: preserved the original pixels and aspect ratio. No redrawing, recoloring or background removal.
+Note: SVG robot images are original illustrative visuals, not authenticated product photography.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 680" role="img" aria-labelledby="t d">
+<title id="t">RoboRace competition robot visualization</title><desc id="d">Illustrative low profile four-wheel race robot with black and gold body and engineered chassis.</desc>
+<defs>
+<radialGradient id="bg"><stop stop-color="#252526"/><stop offset="1" stop-color="#0e1011"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe5a3"/><stop offset=".45" stop-color="#c8943d"/><stop offset="1" stop-color="#8e6128"/></linearGradient>
+<linearGradient id="car" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#515558"/><stop offset=".35" stop-color="#202426"/><stop offset=".65" stop-color="#131617"/><stop offset="1" stop-color="#444749"/></linearGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7d9b8"/><stop offset=".55" stop-color="#8d7047"/><stop offset="1" stop-color="#d9b269"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+<pattern id="g" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" stroke="#a89669" opacity=".06" fill="none"/></pattern>
+</defs>
+<rect width="920" height="680" rx="26" fill="url(#bg)"/><rect width="920" height="680" rx="26" fill="url(#g)"/>
+<circle cx="680" cy="133" r="230" fill="#f5bf69" opacity=".045"/>
+<path d="M78 470L798 470M78 505L798 505M78 540L798 540" stroke="#8b7149" opacity=".14" stroke-width="2"/>
+<ellipse cx="465" cy="489" rx="320" ry="67" fill="#000" opacity=".7" filter="url(#blur)"/>
+<!-- wheels -->
+<g transform="translate(258 407)"><ellipse rx="71" ry="76" fill="#08090a" stroke="#57595b" stroke-width="9"/><ellipse rx="45" ry="50" fill="#1b2022" stroke="url(#rim)" stroke-width="6"/><ellipse rx="16" ry="19" fill="url(#gold)"/><path d="M-35 -23L32 29M-30 30L30 -24" stroke="#a99c80" stroke-width="7"/></g>
+<g transform="translate(680 390)"><ellipse rx="74" ry="83" fill="#090a0b" stroke="#5c6062" stroke-width="9"/><ellipse rx="47" ry="54" fill="#1b2022" stroke="url(#rim)" stroke-width="7"/><ellipse rx="18" ry="19" fill="url(#gold)"/><path d="M-35 -31L34 34M-32 34L33 -31" stroke="#a99c80" stroke-width="7"/></g>
+<!-- rear aero -->
+<path d="M569 292L733 262L780 280L618 312Z" fill="#d5ac64"/><path d="M603 306L618 341L639 335L628 303Z" fill="#5a5b56"/>
+<!-- body -->
+<path d="M131 382L338 284L588 273L757 342L699 396L286 459Z" fill="url(#car)" stroke="#ac935f" stroke-width="5"/>
+<path d="M170 376L347 301L568 287L711 345L665 379L291 436Z" fill="#1e2224" stroke="#6e6858" stroke-width="3"/>
+<path d="M132 381L284 441L283 459L127 406Z" fill="#6b7070"/><path d="M284 442L700 388L699 409L284 463Z" fill="#242728" stroke="#c5a15b" stroke-width="4"/>
+<path d="M162 386L317 438" stroke="url(#gold)" stroke-width="8"/><path d="M306 442L677 392" stroke="url(#gold)" stroke-width="6"/>
+<!-- inner body canopy -->
+<path d="M322 319L443 289L570 303L615 349L363 391L293 365Z" fill="#0e1011" stroke="url(#gold)" stroke-width="4"/>
+<path d="M364 330L439 306L549 314L566 335L387 367Z" fill="#353e42" opacity=".75"/>
+<path d="M379 321L431 309" stroke="#c6d2d1" stroke-width="3" opacity=".8"/>
+<path d="M570 347L616 354L653 367L588 379Z" fill="#d2ab64" opacity=".8"/>
+<path d="M165 379L271 337L306 352L234 391Z" fill="#c69a52" opacity=".7"/>
+<g transform="translate(498 389) rotate(-9)"><text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="37" font-weight="800" letter-spacing="3" fill="url(#gold)">QXI</text><text x="0" y="24" text-anchor="middle" font-family="Arial" font-size="12" letter-spacing="3" fill="#ddd5c6">ROBORACE</text></g>
+<g fill="#e9bd67"><circle cx="214" cy="369" r="5"/><circle cx="685" cy="352" r="5"/></g>
+<text x="58" y="68" font-family="Arial" font-size="13" letter-spacing="5" fill="#dfbe7f">BUILT FOR CONTROL &amp; SPEED</text>
+<text x="58" y="610" font-family="Arial" font-size="15" letter-spacing="4" fill="#f4e0ba">CONFIGURABLE / TRACK-FOCUSED / COMPETITION KIT</text>
+<path d="M58 628H860" stroke="#ab864a" opacity=".34"/>
+</svg>
