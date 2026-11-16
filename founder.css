@@ -17,3 +17,36 @@
 @media(max-width:700px){.shell{width:min(calc(100% - 36px),var(--max))}.header-inner{height:62px}.monogram{font-size:25px}.header-contact{padding:12px;font-size:9px;margin-left:auto}.header-contact span{display:none}.mobile-nav-toggle{margin-left:0}.site-menu{top:62px;padding:14px 18px 20px}.hero-grid{grid-template-columns:1fr;min-height:0}.hero-copy{padding:55px 0 15px}.overline{font-size:9px;letter-spacing:1.4px;flex-wrap:wrap}.hero h1{font-size:clamp(44px,11.5vw,75px);letter-spacing:-3.3px;margin:33px 0 21px}.hero-descriptor{font-size:18px}.hero-actions{gap:17px;margin-top:27px}.primary-action{padding:16px 18px}.hero-mail{margin-top:28px;margin-bottom:14px;font-size:11px}.portrait-frame{height:430px;max-width:480px;margin-inline:auto;width:100%}.portrait-frame img{height:440px;max-height:none;width:100%;object-fit:contain;object-position:center bottom}.portrait-frame figcaption{bottom:9px}.portrait-side{right:0}.metrics{grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;padding:24px 0}.metrics strong{font-size:27px}.metrics small{font-size:9px;line-height:1.5}.metrics-index{display:none}.section{padding:68px 0}.section h2{font-size:clamp(34px,8.5vw,48px);letter-spacing:-1.6px}.profile-grid{grid-template-columns:1fr;gap:15px}.section-ident{gap:0}.section-ident .ident-line,.section-ident>span:last-child{display:none}.profile-content p{font-size:15px}.profile-content p:first-of-type{font-size:16px}.skill-tags span{padding:10px;font-size:9px}.work-grid{grid-template-columns:1fr;gap:12px}.work-logo{height:165px}.work-card h3{font-size:26px}.section-header{margin-bottom:30px}.timeline li{grid-template-columns:94px 1fr;gap:15px}.timeline h3{font-size:20px}.timeline-years{font-size:9px}.achievement{grid-template-columns:35px 1fr 18px;gap:10px}.achievement-number{font-size:19px}.achievement h3{font-size:19px}.learning-grid{grid-template-columns:1fr 1fr}.learning-card{min-height:200px;padding:16px}.learning-card h3{font-size:19px}.contact-section{padding:72px 0}.contact-wrap{grid-template-columns:1fr;gap:35px}.contact-section h2{font-size:clamp(35px,8.5vw,52px);letter-spacing:-1.8px}.contact-email{font-size:17px}.footer-inner{min-height:110px;flex-wrap:wrap;gap:12px;padding:23px 0}.footer-inner>span{order:3;width:100%;font-size:9px}}
 @media(max-width:390px){.hero h1{font-size:clamp(40px,11vw,45px);letter-spacing:-2.3px}.header-contact{font-size:8px;padding:11px 9px}.learning-grid{grid-template-columns:1fr}.portrait-frame{height:365px}.portrait-frame img{height:376px}.metrics strong{font-size:24px}.metrics small{font-size:8px}.skill-tags{gap:7px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.js-ready .reveal:not(.is-visible){opacity:1;transform:none}}
+
+/* 2026-11-16 | Official portfolio imagery and visual fidelity refinements */
+:root{--gold:#e6b573;--wine:#843b48}
+/* Keep the portrait poster entirely visible; do not crop the founder or embedded branding. */
+.portrait-frame{align-items:center;padding:24px 4px 38px}
+.portrait-frame img{width:min(100%,495px);height:auto;max-height:620px;object-fit:contain;object-position:center;mask-image:none;border:1px solid rgba(229,185,114,.17);box-shadow:0 24px 70px rgba(0,0,0,.32);filter:grayscale(1) contrast(1.04);transform:none}
+.portrait-frame:is(:hover,:focus,:focus-within) img{filter:grayscale(0) contrast(1);transform:translateY(-3px)}
+.portrait-frame::before{opacity:.35}
+.portrait-frame figcaption{bottom:8px;left:12px;right:12px;background:rgba(18,19,23,.82);backdrop-filter:blur(8px)}
+.portrait-side{display:none}
+.work-logo{padding:14px;overflow:hidden}
+.work-logo-quvionx{gap:8px;justify-content:center;background:#f9f8f5}
+.work-logo-quvionx img{display:block;width:116px;height:116px;max-width:calc(100% - 16px);object-fit:contain}
+.logo-title{color:#7b622e;font-size:9px;font-weight:850;letter-spacing:2.2px}
+.work-logo-industry{background:#fff}
+.work-logo-industry img{display:block;width:100%;height:100%;object-fit:contain;max-height:160px}
+.work-logo-club{background:#211e1b;padding:4px}
+.work-logo-club img{width:100%;height:100%;object-fit:contain;display:block}
+.archive-disclosure{border-top:1px solid #c8c5bc;border-bottom:1px solid #c8c5bc;margin-top:29px}
+.archive-disclosure summary{list-style:none;cursor:pointer;padding:22px 0;font-size:11px;font-weight:850;letter-spacing:1.6px;display:flex;align-items:center;justify-content:space-between;color:#75533c}
+.archive-disclosure summary::-webkit-details-marker{display:none}
+.archive-disclosure summary>span{font-size:24px;line-height:1;color:#8b6443;transition:transform .25s}
+.archive-disclosure[open] summary>span{transform:rotate(45deg)}
+.archive-content{padding:0 0 28px;color:#646369;font-size:13px;line-height:1.7}
+.archive-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:17px}
+.archive-grid>div{padding:22px;background:#f5f2ea;border:1px solid #dad5ca;display:flex;flex-direction:column;gap:10px}
+.archive-grid small{font-size:10px;color:#936c43;letter-spacing:1px;font-weight:850}
+.archive-grid strong{font-size:16px;color:#252629}
+.archive-grid span{color:#6c6b69}
+@media(max-width:960px){.portrait-frame img{max-height:540px}.work-logo{height:180px}}
+@media(max-width:700px){.portrait-frame{height:auto;max-width:450px;padding:12px 0 38px}.portrait-frame img{width:100%;height:auto;max-height:570px}.portrait-frame figcaption{bottom:8px}.work-logo{height:165px}.archive-grid{grid-template-columns:1fr}.hero h1{white-space:normal;overflow-wrap:normal}}
+@media(max-width:390px){.portrait-frame{height:auto}.portrait-frame img{height:auto;max-height:490px}}
+@media(prefers-reduced-motion:reduce){.portrait-frame img,.archive-disclosure summary>span{transition:none!important}}
